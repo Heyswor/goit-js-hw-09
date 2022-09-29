@@ -11,9 +11,9 @@ body {
   color: #212121;
   line-height: 1.5;
 
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
 }
 
 img {
@@ -40,9 +40,9 @@ button {
 .field {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 1px solid black;
-  border-radius: 30px;
+  /* align-items: center; */
+  /* border: 1px solid black;
+  border-radius: 30px; */
   /* border-top: 1px solid black;
   border-bottom: 1px solid black; */
   width: 100px;
@@ -59,13 +59,11 @@ button {
   border-right: 1px solid black;
 } */
 
-.value {
+/* .value {
   font-size: 40px;
-}
+} */
 
-.value:not(:last-child) {
-}
 
-.label {
+/* .label {
   font-size: 20px;
-}
+} */
