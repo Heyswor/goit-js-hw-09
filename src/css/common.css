@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+button {
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#datetime-picker {
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 30px;
+  /* border-top: 1px solid black;
+  border-bottom: 1px solid black; */
+  width: 100px;
+}
+
+.field:not(:last-child) {
+  margin-right: 5px;
+}
+
+/* .field:first-child{
+  border-left: 1px solid black;
+}
+.field:last-child{
+  border-right: 1px solid black;
+} */
+
+.value {
+  font-size: 40px;
+}
+
+.value:not(:last-child) {
+}
+
+.label {
+  font-size: 20px;
+}
