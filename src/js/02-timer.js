@@ -8,12 +8,13 @@ const timerRef = document.querySelector('.timer');
 
 let pickDate = null;
 
-notifyOptions = {
+const notifyOptions = {
   backOverlay: true,
   closeButton: true,
   clickToClose: true,
   position: 'center-center',
 };
+
 
 dataPickerRef.addEventListener('input', event => {
   pickDate = new Date(event.target.value);
